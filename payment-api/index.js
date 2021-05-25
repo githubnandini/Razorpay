@@ -32,6 +32,7 @@ const razorpay = new Razorpay({
           // pass it
       }
       
+      
     res.send({ status : 'ok'})
 
   })
