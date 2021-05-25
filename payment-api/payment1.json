@@ -1,0 +1,58 @@
+{
+    "entity": "event",
+    "account_id": "acc_HABJhgZ1sAMoEi",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_HEyXMZmVCyJeCi",
+                "entity": "payment",
+                "amount": 49900,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_HEyX9DtrpjVGQx",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Thank you",
+                "card_id": "card_HEyXMfjCLEFfwm",
+                "card": {
+                    "id": "card_HEyXMfjCLEFfwm",
+                    "entity": "card",
+                    "name": "Nandini",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer"
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "nandini@teting.com",
+                "contact": "+918861603490",
+                "notes": [],
+                "fee": 998,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "348727"
+                },
+                "created_at": 1621934825
+            }
+        }
+    },
+    "created_at": 1621934828
+}
